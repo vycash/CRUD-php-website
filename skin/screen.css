@@ -1,0 +1,175 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header and Title */
+h1 {
+    font-size: 2em;
+    color: #4CAF50;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Menu */
+nav.menu {
+    background-color: #4CAF50;
+    padding: 10px 0;
+}
+
+nav.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav.menu ul li a:hover {
+    color: #FFD700;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.feedback {
+    color: green;
+    font-weight: bold;
+}
+
+/* Form styles */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input[type="text"], form input[type="number"], form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Animal page */
+.animal-actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.animal-actions button {
+    background-color: #FF6347;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.animal-actions button:hover {
+    background-color: #e53d31;
+}
+
+/* Animal list page */
+.animal-list {
+    padding: 0;
+    list-style: none;
+}
+
+.animal-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.animal-item a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.animal-item a:hover {
+    color: #FFD700;
+}
+
+.delete-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Error page */
+.error-page {
+    color: #ff0000;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1em;
+    color: #888;
+}

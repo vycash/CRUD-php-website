@@ -1,0 +1,8 @@
+CREATE TABLE animals (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    species VARCHAR(255) NOT NULL,
+    age INT NOT NULL,
+    imagePath VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
