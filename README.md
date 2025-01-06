@@ -1,4 +1,4 @@
-##this is a simple crud website made using php storing and retrieving data of animals from a mysql Database developped in the context of a university assignement.
+## this is a simple crud website made using php storing and retrieving data of animals from a mysql Database developped in the context of a university assignement.
 
 - you will need to modify the mysql_config.php with the infos needed (connection details, username,passwd,hostname etc..).
 - you can create a compatible table in you db using the sql file.
