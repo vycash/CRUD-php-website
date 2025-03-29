@@ -17,6 +17,7 @@ Ce projet a été construit en utilisant l'architecture MVCR (Modèle, Vue, Cont
 - Validation des fichiers uploadés (extensions acceptées : PNG, JPEG, etc.).
 - Protection contre les scripts malveillants (injections, CSRF, etc.).
 - Gestion de la base de données MySQL pour stocker les données.
+- API pour récuperation des données des animaux 
 
 ## Prérequis
 Avant de commencer, assurez-vous d'avoir :
@@ -96,6 +97,7 @@ This project was built using the MVCR architecture (Model, View, Controller, Rou
 - Validation of uploaded files (accepted extensions: PNG, JPEG, etc.).
 - Protection against malicious scripts (injections, CSRF, etc.).
 - MySQL database management to store data.
+- API for data Retrieval
 
 ## Prerequisites
 Before starting, make sure you have:
